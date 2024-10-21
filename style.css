@@ -718,3 +718,69 @@ h6 {
     transform: scale(1.1);
     background-color: #ffa500;
   }
+
+  .web_dev_section {
+    height: 500%;
+    width: 100%;
+    background-color: #080808;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/public/gridbg.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-y;
+    flex-direction: column;
+    padding-bottom: 1%;
+  }
+  
+  .scroll_area {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 1.5%;
+    flex-direction: column;
+    gap: 1%;
+  }
+  
+  .card {
+    height: 35%;
+    width: 75%;
+    border: 3px solid white;
+    background-color: #ffa500;
+    border-radius: 15px;
+    position: sticky;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card h1 {
+    font-size: 100px;
+    color: black;
+    font-family: "black";
+    font-style: italic;
+    text-transform: uppercase;
+    text-shadow: none;
+  }
+  
+  .resume_section {
+    height: 100%;
+    width: 100%;
+    background-color: #080808;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/public/gridbg.png);
+    background-size: cover;
+    background-position: center;
+    font-size: 65px;
+    color: #dedede;
+  }
+  
+  .resume_section img {
+    scale: 0.8;
+  }
