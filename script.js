@@ -86,3 +86,22 @@ nextBtn.addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % linkList.length;
     updateContent();
 });
+
+
+var cardsList = document.querySelectorAll(".card")
+cardsList.forEach(function(card) {
+    gsap.to(card,{
+        opacity:0,
+        scale:0.7,
+        scrollTrigger:{
+            trigger:card,
+            scroller:"body",
+            start:"top 15%",
+            end:"bottom 25%",
+            // markers:true,
+            scrub:1,
+            // pin:true
+        }
+    })
+})
+
