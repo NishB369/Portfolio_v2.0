@@ -605,3 +605,116 @@ h6 {
     cursor: pointer;
   }
   
+  .ui_section {
+    height: 100%;
+    width: 100%;
+    background-color: #080808;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/public/gridbg.png);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .ui-heading-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+  }
+  
+  .ui-heading-middle-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    top: 45%;
+    right: 3%;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+  }
+  
+  .ui-heading-bottom-right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top: 90%;
+    right: 0;
+  }
+  
+  .laptop_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/public/gridbg.png);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    background-color: #080808;
+    flex-direction: column;
+    position: relative;
+    margin-top: -30px;
+  }
+  
+  .laptop_behind {
+    height: 70%;
+    width: 80%;
+    background-color: #ffa500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 0;
+    border-radius: 50px 50px 0 0;
+    background-image: url(/public/gridlines_black.png);
+  }
+  
+  .laptop_behind img {
+    scale: 0.8;
+    position: absolute;
+    bottom: 20%;
+  }
+  
+  .btn_container {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    padding-right: 6.5%;
+    position: absolute;
+    top: 20%;
+  }
+  
+  .btn_container span {
+    cursor: pointer;
+  }
+  
+  .laptop_behind iframe {
+    position: absolute;
+    left: 24.85%;
+    top: -32%;
+    width: 50.5%;
+    height: 76.5%;
+  }
+  
+  #btn_2 .aur-dekhen-circle {
+    transition: transform 0.5s ease, background-color 0.5s ease;
+  }
+  
+  #btn_2:hover .aur-dekhen-circle {
+    transform: scale(1.1);
+    background-color: #ffa500;
+  }
