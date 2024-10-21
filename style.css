@@ -58,7 +58,7 @@ nav {
   background-color: #080808;
   display: flex;
   align-items: center;
-  background-image: url(/public/gridbg.png);
+  background-image: url(/media/gridbg.png);
   background-size: cover;
   background-position: center;
   flex-direction: column;
@@ -220,7 +220,7 @@ nav {
   background-color: #080808;
   display: flex;
   align-items: center;
-  background-image: url(/public/gridbg.png);
+  background-image: url(/media/gridbg.png);
   background-size: cover;
   background-position: center;
   flex-direction: column;
@@ -274,7 +274,7 @@ nav {
   justify-content: start;
   background-color: #ffa500;
   position: absolute;
-  background-image: url(/public/gridlines_black.png);
+  background-image: url(/media/gridlines_black.png);
   z-index: 100;
   top: 40%;
 }
@@ -307,7 +307,7 @@ h6 {
   background-color: #080808;
   display: flex;
   align-items: center;
-  background-image: url(/public/gridbg.png);
+  background-image: url(/media/gridbg.png);
   background-size: cover;
   background-position: center;
   flex-direction: column;
@@ -322,7 +322,7 @@ h6 {
   background-color: #080808;
   display: flex;
   align-items: center;
-  background-image: url(/public/gridbg.png);
+  background-image: url(/media/gridbg.png);
   background-size: cover;
   background-position: center;
   flex-direction: column;
@@ -472,7 +472,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/public/gridbg.png);
+  background-image: url(/media/gridbg.png);
   background-size: cover;
   background-position: center;
   flex-direction: column;
@@ -599,7 +599,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/public/gridbg.png);
+  background-image: url(/media/gridbg.png);
   background-size: cover;
   background-position: center;
   flex-direction: column;
@@ -642,7 +642,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/public/gridbg.png);
+  background-image: url(/media/gridbg.png);
   background-size: cover;
   background-position: center;
   flex-direction: column;
@@ -663,7 +663,7 @@ h6 {
   position: absolute;
   bottom: 0;
   border-radius: 50px 50px 0 0;
-  background-image: url(/public/gridlines_black.png);
+  background-image: url(/media/gridlines_black.png);
 }
 
 .laptop_behind img {
@@ -713,7 +713,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/public/gridbg.png);
+  background-image: url(/media/gridbg.png);
   background-size: contain;
   background-position: center;
   background-repeat: repeat-y;
@@ -761,7 +761,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/public/gridbg.png);
+  background-image: url(/media/gridbg.png);
   background-size: cover;
   background-position: center;
   font-size: 65px;
@@ -779,7 +779,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/public/gridbg.png);
+  background-image: url(/media/gridbg.png);
   background-size: cover;
   background-position: center;
   flex-direction: column;
