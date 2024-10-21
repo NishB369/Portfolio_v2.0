@@ -18,12 +18,12 @@ body {
 
 @font-face {
   font-family: "regular";
-  src: url(/helvetica-now-display/HelveticaNowDisplay-Regular.woff);
+  src: url(/public/helvetica-now-display/HelveticaNowDisplay-Regular.woff);
 }
 
 @font-face {
   font-family: "black";
-  src: url(/helvetica-now-display/HelveticaNowDisplay-Black.woff);
+  src: url(/public/helvetica-now-display/HelveticaNowDisplay-Black.woff);
 }
 
 nav {
