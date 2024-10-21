@@ -54,3 +54,35 @@ aurDekhen.addEventListener('mouseleave', () => {
         ease: 'power2.inOut'
     });
 });
+
+var iframe = document.querySelector('iframe');
+
+var linkList = [
+    "https://scribesavvy.com/",
+    "https://amanportfolioo.vercel.app/",
+    "https://caasf.vercel.app/",
+]
+
+// Get the carousel buttons and the anchor tag
+const prevBtn = document.querySelector('.btn_container span:first-child');
+const nextBtn = document.querySelector('.btn_container span:last-child');
+const visitLink = document.querySelector('#btn_2 a');
+
+let currentIndex = 0;
+
+function updateContent() {
+    iframe.src = linkList[currentIndex];
+    visitLink.href = linkList[currentIndex];
+}
+
+updateContent();
+
+prevBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + linkList.length) % linkList.length;
+    updateContent();
+});
+
+nextBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % linkList.length;
+    updateContent();
+});
