@@ -105,3 +105,38 @@ cardsList.forEach(function(card) {
     })
 })
 
+const smContainers = document.querySelectorAll('.sm_container');
+
+const iconDivs = document.querySelectorAll('.icons_container div');
+
+if (smContainers[0]) {
+    smContainers[0].style.display = 'flex';
+}
+
+
+let lastHoveredIndex = 0;
+
+iconDivs.forEach((iconDiv, index) => {
+    iconDiv.addEventListener('mouseenter', () => {
+        smContainers.forEach(container => {
+            container.style.display = 'none';
+        });
+        
+        if (smContainers[index]) {
+            smContainers[index].style.display = 'flex';
+            lastHoveredIndex = index;
+        }
+    });
+});
+
+document.querySelector('.icons_container').addEventListener('mouseleave', () => {
+    smContainers.forEach(container => {
+        container.style.display = 'none';
+    });
+    
+    if (smContainers[lastHoveredIndex]) {
+        smContainers[lastHoveredIndex].style.display = 'flex';
+    }
+});
+
+
