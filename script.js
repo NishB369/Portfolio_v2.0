@@ -140,3 +140,12 @@ document.querySelector('.icons_container').addEventListener('mouseleave', () => 
 });
 
 
+const carouselCards = document.querySelectorAll('.carousel');
+carouselCards.forEach(function(card, index) {
+    if (index % 2 !== 0) {
+        card.style.backgroundColor = "#ffa500";
+        card.style.opacity = "1";
+        card.style.backgroundImage = "url(/media/cardgridlinebg.png)";
+        card.style.color = "#000000";
+    }
+})
