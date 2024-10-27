@@ -21,9 +21,9 @@ This github repo holds the code for version 2 of my personal portfolio for 2024,
 
 ## Features
 - **Responsive Design**: The UI is fully responsive, ensuring a seamless experience across devices.
-- **Navigation Bar**: A functional navigation bar 
-- **Card Components**: Stylish card layouts for displaying financial information.
-- **Footer**: A footer that includes links and contact information, similar to the original app.
+- **Modern UI Design**: The UI aligns with modern deisgn trends giving it a fresh feel.
+- **Scroll Based Animations**: Few sections are designed for a seamless scroll based UX.
+- **Story-Telling by Code**: The User Joureny is defined in a way it seems like a story is being told as the user traverses through the carefully designed and coded sections of the portfolio.
 
 ## Installation
 To view this project locally, follow these steps:
@@ -39,8 +39,15 @@ To view this project locally, follow these steps:
 3. Open the ```index.html``` file in your web browser.
 
 ## Usage
-* Open the project in your browser to view the clone of the 
-* Explore the layout and features implemented using HTML and CSS.
+* Open the project in your browser to view the portfolio. 
+* Explore the layout and features implemented using ```HTML```, ```CSS```, ```JS```, ```GSAP``` and ```Lenis```.
+* Or you can directly view it live at [link](https://nishchaybhatia.vercel.app/).
+
+## Screenshots
+![](/media/ss1.png)
+![](/media/ss2.png)
+![](/media/ss3.png)
+![](/media/ss4.png)
 
 ## Contact
 * For any inquiries or feedback, feel free to reach out:
