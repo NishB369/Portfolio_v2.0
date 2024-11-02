@@ -814,6 +814,15 @@ h6 {
   opacity: 0.8;
 }
 
+.card_left_part img{
+  object-fit: contain;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+  scale: 0.5;
+  rotate: -10deg;
+}
+
 .card_right_part{
   height: 75%;
   width: 65%;
@@ -827,17 +836,18 @@ h6 {
 
 .card_right_part_heading h1{
   font-size: 40px;
-  font-style: normal;
+  /* font-style: normal; */
   /* border: 1px solid red; */
   padding: 0;
 }
 
 .card_right_part_desc h3{
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   /* border: 1px solid red; */
   padding: 0;
-  width: 80%;
+  width: 90%;
+  text-align: justify;
 }
 
 .links_ctr{
@@ -851,13 +861,14 @@ h6 {
   margin: 2% 0;
 }
 
-.links_ctr div{
+.links_ctr a{
   background-color: black;
   color: white;
   padding: 1.5% 5%;
   border-radius: 50px;
   border: 1px solid white;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .tech_stack_ctr{

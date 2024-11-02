@@ -96,7 +96,7 @@ cardsList.forEach(function(card) {
         scrollTrigger:{
             trigger:card,
             scroller:"body",
-            start:"top 15%",
+            start:"top 1%",
             end:"bottom 25%",
             // markers:true,
             scrub:1,
