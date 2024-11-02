@@ -792,6 +792,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 3%;
 }
 
 .card h1 {
@@ -801,6 +802,76 @@ h6 {
   font-style: italic;
   text-transform: uppercase;
   text-shadow: none;
+}
+
+.card_left_part{
+  background-color: #080808;
+  height: 80%;
+  width: 25%;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  background-image: url(./media/gridbg.png);
+  opacity: 0.8;
+}
+
+.card_right_part{
+  height: 75%;
+  width: 65%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 7.5%;
+}
+
+.card_right_part_heading h1{
+  font-size: 40px;
+  font-style: normal;
+  /* border: 1px solid red; */
+  padding: 0;
+}
+
+.card_right_part_desc h3{
+  font-size: 18px;
+  font-style: normal;
+  /* border: 1px solid red; */
+  padding: 0;
+  width: 80%;
+}
+
+.links_ctr{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3%;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 10%;
+  margin: 2% 0;
+}
+
+.links_ctr div{
+  background-color: black;
+  color: white;
+  padding: 1.5% 5%;
+  border-radius: 50px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.tech_stack_ctr{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4%;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 10%;
+}
+
+.tech_stack_ctr img{
+  scale: 1.4;
 }
 
 .resume_section {
