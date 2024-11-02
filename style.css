@@ -684,10 +684,35 @@ h6 {
   background-image: url(/media/gridlines_black.png);
 }
 
-.laptop_behind img {
-  scale: 0.8;
+.laptop-iframe{
+  height: 100%;
+  width:50%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 35%;
+}
+
+.laptop-iframe img {
+  scale: 80%;
   position: absolute;
-  bottom: 20%;
+  bottom: -10%;
+}
+
+.laptop_behind img {
+  scale: 80%;
+  position: absolute;
+  bottom: -10%;
+}
+
+.laptop_behind iframe {
+  position: absolute;
+  /* left: 24.85%; */
+  /* top: -32%; */
+  width: 100%;
+  height: 76.5%;
 }
 
 .btn_container {
@@ -705,14 +730,6 @@ h6 {
 
 .btn_container span {
   cursor: pointer;
-}
-
-.laptop_behind iframe {
-  position: absolute;
-  left: 24.85%;
-  top: -32%;
-  width: 50.5%;
-  height: 76.5%;
 }
 
 #btn_2 .aur-dekhen-circle {
