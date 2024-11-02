@@ -141,6 +141,7 @@ document.querySelector('.icons_container').addEventListener('mouseleave', () => 
 
 
 const carouselCards = document.querySelectorAll('.carousel');
+const carouselBtn = document.querySelectorAll(".carousel a div")
 carouselCards.forEach(function(card, index) {
     if (index % 2 !== 0) {
         card.style.backgroundColor = "#ffa500";
@@ -149,3 +150,22 @@ carouselCards.forEach(function(card, index) {
         card.style.color = "#000000";
     }
 })
+
+carouselBtn.forEach(function(btn, index) {
+    if (index % 2 !== 0) {
+        btn.style.backgroundColor = "#fff";
+    }
+    btn.addEventListener("mouseenter",()=>{
+        btn_hover(btn,45)
+    })
+    btn.addEventListener("mouseleave",()=>{
+        btn_hover(btn,0)
+    })
+})
+
+function btn_hover(x,y){
+    gsap.to(x,{
+        rotate:`${y}deg`,
+        duration:0.2
+    })
+}
