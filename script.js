@@ -175,7 +175,7 @@ const loader = document.querySelector(".loader");
         setTimeout(() => {
             gsap.to(loader,{
                 display:"none",
-                duration:3
+                duration:1
             })
         }, 3000);
 })
