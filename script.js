@@ -169,3 +169,13 @@ function btn_hover(x,y){
         duration:0.2
     })
 }
+
+const loader = document.querySelector(".loader");
+      window.addEventListener("load", function () {
+        setTimeout(() => {
+            gsap.to(loader,{
+                display:"none",
+                duration:3
+            })
+        }, 3000);
+})

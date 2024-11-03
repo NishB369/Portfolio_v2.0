@@ -26,6 +26,16 @@ body {
   src: url(/helvetica-now-display/HelveticaNowDisplay-Black.woff);
 }
 
+.loader{
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  /* filter: blur(20px); */
+  position: fixed;
+  z-index: 10000;
+  background: #000 url(./media/preloader.gif) center no-repeat;
+}
+
 nav {
   background: linear-gradient(
     135deg,

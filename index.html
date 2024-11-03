@@ -1,453 +1,801 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hey! I'm Nishchay {Jack}</title>
-    <link rel="stylesheet" href="style.css" media="screen and (min-width: 601px)">
-    <link rel="stylesheet" href="mobile_style.css" media="screen and (max-width: 600px)">
-    <link rel="icon" type="image/x-icon" href="/media/image.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/media/image.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preload" as="image" href="./media/P1.webp">
+    <link rel="preload" as="image" href="./media/P2.webp">
+    <link rel="preload" as="image" href="./media/P3.webp">
+    <link rel="preload" as="image" href="./media/P4.webp">
+    <link rel="preload" as="image" href="./media/P5.webp">
+    <link rel="preload" as="image" href="./media/P6.webp">
+    <link rel="preload" as="image" href="./media/P7.webp">
+    <link rel="preload" as="image" href="./media/P8.webp">
+    <link rel="preload" as="image" href="./media/P9.webp">
+    <link rel="preload" as="image" href="./media/P10.webp">
+  </head>
+  <body>
+    <div class="loader"></div>
 
     <div class="hero_section">
-        <nav>
-            <div class="nav-left">
-                <span>Hello!</span>
-            </div>
-            <div class="nav-right">
-                <a href="#quote_section"><span>About Me</span></a>
-                <a href="#web_dev_section"><span>Projects</span></a>
-                <a href="#skills_section"><span>Skills</span></a>
-                <a href="#connect_section"><span>Contact</span></a>
-            </div>
-        </nav>
+      <nav>
+        <div class="nav-left">
+          <span>Hello!</span>
+        </div>
+        <div class="nav-right">
+          <a href="#quote_section"><span>About Me</span></a>
+          <a href="#web_dev_section"><span>Projects</span></a>
+          <a href="#skills_section"><span>Skills</span></a>
+          <a href="#connect_section"><span>Contact</span></a>
+        </div>
+      </nav>
 
-        <div class="heading_container">
-            <div class="heading-top-right">I'm Nishchay</div>
-            <div class="heading-middle-right">
-                <div class="heading-student">Student</div>
-                <div class="orange_cylinder heading-arrow">
-                    <img src="/media/right_arrow.png" alt="">
-                </div>
-            </div>
-            <div class="heading-bottom-right">
-                <div class="orange_cylinder heading-aur">और</div>
-                <span class="heading-freelancer">Freelancer</span>
-            </div>
+      <div class="heading_container">
+        <div class="heading-top-right">I'm Nishchay</div>
+        <div class="heading-middle-right">
+          <div class="heading-student">Student</div>
+          <div class="orange_cylinder heading-arrow">
+            <img src="/media/right_arrow.png" alt="" />
+          </div>
+        </div>
+        <div class="heading-bottom-right">
+          <div class="orange_cylinder heading-aur">और</div>
+          <span class="heading-freelancer">Freelancer</span>
+        </div>
+      </div>
+
+      <div class="main_tags_container">
+        <div class="tags_container">
+          <div class="tag_subcontainer">
+            <div class="tag-item" id="tag-item-1">HTML</div>
+            <div class="tag-item" id="tag-item-2">CSS</div>
+            <div class="tag-item" id="tag-item-3">JavaScript</div>
+            <div class="tag-item" id="tag-item-4">Python</div>
+            <div class="tag-item" id="tag-item-5">Java</div>
+            <div class="tag-item" id="tag-item-6">UI UX</div>
+          </div>
+          <div class="tag_subcontainer">
+            <div class="tag-item" id="tag-item-1">HTML</div>
+            <div class="tag-item" id="tag-item-2">CSS</div>
+            <div class="tag-item" id="tag-item-3">JavaScript</div>
+            <div class="tag-item" id="tag-item-4">Python</div>
+            <div class="tag-item" id="tag-item-5">Java</div>
+            <div class="tag-item" id="tag-item-6">UI UX</div>
+          </div>
         </div>
 
-        <div class="main_tags_container">
-            <div class="tags_container">
-                <div class="tag_subcontainer">
-                    <div class="tag-item" id="tag-item-1">HTML</div>
-                    <div class="tag-item" id="tag-item-2">CSS</div>
-                    <div class="tag-item" id="tag-item-3">JavaScript</div>
-                    <div class="tag-item" id="tag-item-4">Python</div>
-                    <div class="tag-item" id="tag-item-5">Java</div>
-                    <div class="tag-item" id="tag-item-6">UI UX</div>
-                </div>
-                <div class="tag_subcontainer">
-                    <div class="tag-item" id="tag-item-1">HTML</div>
-                    <div class="tag-item" id="tag-item-2">CSS</div>
-                    <div class="tag-item" id="tag-item-3">JavaScript</div>
-                    <div class="tag-item" id="tag-item-4">Python</div>
-                    <div class="tag-item" id="tag-item-5">Java</div>
-                    <div class="tag-item" id="tag-item-6">UI UX</div>
-                </div>
-            </div>
-
-            <div class="tags_container tags-scroll-right">
-                <div class="tag_subcontainer">
-                    <div class="tag-item" id="tag-item-7">Canva</div>
-                    <div class="tag-item" id="tag-item-8">WordPress</div>
-                    <div class="tag-item" id="tag-item-9">Wix Studio</div>
-                    <div class="tag-item" id="tag-item-10">Figma</div>
-                    <div class="tag-item" id="tag-item-11">Framer</div>
-                    <div class="tag-item" id="tag-item-12">Elementor</div>
-                </div>
-                <div class="tag_subcontainer">
-                    <div class="tag-item" id="tag-item-7">Canva</div>
-                    <div class="tag-item" id="tag-item-8">WordPress</div>
-                    <div class="tag-item" id="tag-item-9">Wix Studio</div>
-                    <div class="tag-item" id="tag-item-10">Figma</div>
-                    <div class="tag-item" id="tag-item-11">Framer</div>
-                    <div class="tag-item" id="tag-item-12">Elementor</div>
-                </div>
-            </div>
-
-            <div class="tags_container">
-                <div class="tag_subcontainer">
-                    <div class="tag-item" id="tag-item-13">Posts</div>
-                    <div class="tag-item" id="tag-item-14">Carousels</div>
-                    <div class="tag-item" id="tag-item-15">Reels</div>
-                    <div class="tag-item" id="tag-item-16">Projects</div>
-                    <div class="tag-item" id="tag-item-17">Code</div>
-                    <div class="tag-item" id="tag-item-18">Design</div>
-                </div>
-                <div class="tag_subcontainer">
-                    <div class="tag-item" id="tag-item-13">Posts</div>
-                    <div class="tag-item" id="tag-item-14">Carousels</div>
-                    <div class="tag-item" id="tag-item-15">Reels</div>
-                    <div class="tag-item" id="tag-item-16">Projects</div>
-                    <div class="tag-item" id="tag-item-17">Code</div>
-                    <div class="tag-item" id="tag-item-18">Design</div>
-                </div>
-            </div>
+        <div class="tags_container tags-scroll-right">
+          <div class="tag_subcontainer">
+            <div class="tag-item" id="tag-item-7">Canva</div>
+            <div class="tag-item" id="tag-item-8">WordPress</div>
+            <div class="tag-item" id="tag-item-9">Wix Studio</div>
+            <div class="tag-item" id="tag-item-10">Figma</div>
+            <div class="tag-item" id="tag-item-11">Framer</div>
+            <div class="tag-item" id="tag-item-12">Elementor</div>
+          </div>
+          <div class="tag_subcontainer">
+            <div class="tag-item" id="tag-item-7">Canva</div>
+            <div class="tag-item" id="tag-item-8">WordPress</div>
+            <div class="tag-item" id="tag-item-9">Wix Studio</div>
+            <div class="tag-item" id="tag-item-10">Figma</div>
+            <div class="tag-item" id="tag-item-11">Framer</div>
+            <div class="tag-item" id="tag-item-12">Elementor</div>
+          </div>
         </div>
+
+        <div class="tags_container">
+          <div class="tag_subcontainer">
+            <div class="tag-item" id="tag-item-13">Posts</div>
+            <div class="tag-item" id="tag-item-14">Carousels</div>
+            <div class="tag-item" id="tag-item-15">Reels</div>
+            <div class="tag-item" id="tag-item-16">Projects</div>
+            <div class="tag-item" id="tag-item-17">Code</div>
+            <div class="tag-item" id="tag-item-18">Design</div>
+          </div>
+          <div class="tag_subcontainer">
+            <div class="tag-item" id="tag-item-13">Posts</div>
+            <div class="tag-item" id="tag-item-14">Carousels</div>
+            <div class="tag-item" id="tag-item-15">Reels</div>
+            <div class="tag-item" id="tag-item-16">Projects</div>
+            <div class="tag-item" id="tag-item-17">Code</div>
+            <div class="tag-item" id="tag-item-18">Design</div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="quote_section" id="quote_section">
-        <div class="quote_heading_container">
-            <div>I live by the</div>
-            <div>
-                <div class="orange_cylinder"><img src="/media/arrow_down.png" alt=""></div>
-                <div>quote</div>
-            </div>
+      <div class="quote_heading_container">
+        <div>I live by the</div>
+        <div>
+          <div class="orange_cylinder">
+            <img src="/media/arrow_down.png" alt="" />
+          </div>
+          <div>quote</div>
         </div>
+      </div>
 
-        <div class="main_quote_container">
-               <h1>"Jack of all trades, master of none,</h1>
-        </div>
+      <div class="main_quote_container">
+        <h1>"Jack of all trades, master of none,</h1>
+      </div>
     </div>
 
     <div class="section">
-        <h6>though oftentimes better than master of one"</h6>
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <h6>though oftentimes better than master of one"</h6>
+      <br /><br /><br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </div>
 
     <div class="section section-35"></div>
 
     <div class="carousel_section">
-        <div class="carousel_section_heading">
-            <div>मैं</div>
-            <div class="orange_cylinder carousel-jack">Jack</div>
-            <div>क्यों हूँ?</div>
-        </div>
+      <div class="carousel_section_heading">
+        <div>मैं</div>
+        <div class="orange_cylinder carousel-jack">Jack</div>
+        <div>क्यों हूँ?</div>
+      </div>
 
-        <div class="carousel_container">
-            <div class="carousel_subcontainer">
-                <div class="carousel">
-                    <h3>I DO<br>GRAPHIC DESIGNING</h3>
-                    <a href="https://nishchayportfolio.my.canva.site/" target="_blank"><div><img src="/media/arrowtopright.png" alt="" style="scale: 0.6"></div></a>
-                </div>
-                <div class="carousel">
-                    <h3>I AM LEARNING FRONTEND DEV</h3>
-                    <a href="https://github.com/NishB369" target="_blank"><div><img src="/media/arrowtopright.png" alt="" style="scale: 0.6"></div></a>
-                </div>
-                <div class="carousel">
-                    <h3>I DO FREELANC-<br>ING</h3>
-                    <a href="https://www.linkedin.com/in/nishchay-bhatia/" target="_blank"><div><img src="/media/arrowtopright.png" alt="" style="scale: 0.6"></div></a>
-                </div>
-                <div class="carousel">
-                    <h3>I AM LEARNING<br>CP</h3>
-                    <a href="https://codolio.com/profile/nishbcodes" target="_blank"><div><img src="/media/arrowtopright.png" alt="" style="scale: 0.6"></div></a>
-                </div>
-                <div class="carousel">
-                    <h3>I ATTEND LECTURES AT IIT-G</h3>
-                    <a href="https://www.linkedin.com/in/nishchay-bhatia/#:~:text=and%20%2B3%20skills-,Education,-Education" target="_blank"><div><img src="/media/arrowtopright.png" alt="" style="scale: 0.6"></div></a>
-                </div>
-                <div class="carousel">
-                    <h3>I AM LEARNING <br>UI-UX DESIGNING</h3>
-                    <a href="#laptop_container"><div><img src="/media/arrowtopright.png" alt="" style="scale: 0.6"></div></a>
-                </div>
-            </div>
+      <div class="carousel_container">
+        <div class="carousel_subcontainer">
+          <div class="carousel">
+            <h3>I DO<br />GRAPHIC DESIGNING</h3>
+            <a href="https://nishchayportfolio.my.canva.site/" target="_blank"
+              ><div>
+                <img
+                  src="/media/arrowtopright.png"
+                  alt=""
+                  style="scale: 0.6"
+                /></div
+            ></a>
+          </div>
+          <div class="carousel">
+            <h3>I AM LEARNING FRONTEND DEV</h3>
+            <a href="https://github.com/NishB369" target="_blank"
+              ><div>
+                <img
+                  src="/media/arrowtopright.png"
+                  alt=""
+                  style="scale: 0.6"
+                /></div
+            ></a>
+          </div>
+          <div class="carousel">
+            <h3>I DO FREELANC-<br />ING</h3>
+            <a
+              href="https://www.linkedin.com/in/nishchay-bhatia/"
+              target="_blank"
+              ><div>
+                <img
+                  src="/media/arrowtopright.png"
+                  alt=""
+                  style="scale: 0.6"
+                /></div
+            ></a>
+          </div>
+          <div class="carousel">
+            <h3>I AM LEARNING<br />CP</h3>
+            <a href="https://codolio.com/profile/nishbcodes" target="_blank"
+              ><div>
+                <img
+                  src="/media/arrowtopright.png"
+                  alt=""
+                  style="scale: 0.6"
+                /></div
+            ></a>
+          </div>
+          <div class="carousel">
+            <h3>I ATTEND LECTURES AT IIT-G</h3>
+            <a
+              href="https://www.linkedin.com/in/nishchay-bhatia/#:~:text=and%20%2B3%20skills-,Education,-Education"
+              target="_blank"
+              ><div>
+                <img
+                  src="/media/arrowtopright.png"
+                  alt=""
+                  style="scale: 0.6"
+                /></div
+            ></a>
+          </div>
+          <div class="carousel">
+            <h3>I AM LEARNING <br />UI-UX DESIGNING</h3>
+            <a href="#laptop_container"
+              ><div>
+                <img
+                  src="/media/arrowtopright.png"
+                  alt=""
+                  style="scale: 0.6"
+                /></div
+            ></a>
+          </div>
         </div>
+      </div>
 
-        <div class="orange_cylinder carousel-hijack">
-            so you can say me,<span class="hijack-text">hi-jack<span class="bi bi-arrow-right-circle-fill" style="margin-left: 15px;"></span></span>
-        </div>
+      <div class="orange_cylinder carousel-hijack">
+        so you can say me,<span class="hijack-text"
+          >hi-jack<span
+            class="bi bi-arrow-right-circle-fill"
+            style="margin-left: 15px"
+          ></span
+        ></span>
+      </div>
     </div>
 
-    <div class="graphic_design_section">
-        <div class="graphic_design_section_heading" style="scale: 0.8;">
-            <div class="graphic-design-title">My Graphic</div>
-            <div class="graphic-design-subtitle">
-                <div class="graphic-design-text">Designing</div>
-                <div class="orange_cylinder graphic-design-arrow">
-                    <img src="/media/right_arrow.png" alt="">
-                </div>
-                <div class="graphic-design-text">Projects</div>
-            </div>
+
+    <div class="hero_section" style="height: 50%">
+      <div class="heading_container" style="margin-top: 50px; scale: 0.8">
+        <div class="ui-heading-top-right">My Wanna Be</div>
+        <div class="ui-heading-middle-right">
+          <div class="heading-student">Web Design</div>
+          <div class="orange_cylinder heading-arrow" style="margin-top: 20px">
+            <img src="/media/right_arrow.png" alt="" />
+          </div>
         </div>
-
-        <div class="main_box_container">
-            <div class="box_container">
-                <div class="box_subcontainer">
-                    <div class="box-item"><img src="media/P1.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P2.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P3.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P4.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P5.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P6.webp" alt=""></div>
-                </div>
-                <div class="box_subcontainer">
-                    <div class="box-item"><img src="media/P7.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P8.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P9.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P10.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P11.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P12.webp" alt=""></div>
-                </div>
-            </div>
-
-            <div class="box_container box-scroll-right">
-                <div class="box_subcontainer">
-                    <div class="box-item"><img src="media/P4.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P3.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P2.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P1.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P14.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P13.webp" alt=""></div>
-                </div>
-                <div class="box_subcontainer">
-                    <div class="box-item"><img src="media/P10.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P9.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P8.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P7.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P6.webp" alt=""></div>
-                    <div class="box-item"><img src="media/P5.webp" alt=""></div>
-                </div>
-            </div>
+        <div class="ui-heading-bottom-right">
+          <div
+            class="orange_cylinder heading-aur"
+            style="height: 70px; width: 125px; margin-top: 12.5px"
+          >
+            और
+          </div>
+          <span class="heading-freelancer" style="margin-top: 15px"
+            >UI Projects</span
+          >
         </div>
-
-        <div class="orange_cylinder aur-dekhen">
-            <div>और देखें</div>
-            <div class="aur-dekhen-circle" style="display: flex; align-items: center; justify-content: center;"><img src="/media/arrowtopright.png" alt="" style="scale: 0.5;"></div>
-        </div>
-    </div>
-
-    <div class="hero_section" style="height: 50%;">
-
-        <div class="heading_container" style="margin-top: 50px; scale: 0.8;">
-            <div class="ui-heading-top-right">My Wanna Be</div>
-            <div class="ui-heading-middle-right">
-                <div class="heading-student">Web Design</div>
-                <div class="orange_cylinder heading-arrow" style="margin-top: 20px;">
-                    <img src="/media/right_arrow.png" alt="">
-                </div>
-            </div>
-            <div class="ui-heading-bottom-right">
-                <div class="orange_cylinder heading-aur" style="height: 70px; width: 125px; margin-top: 12.5px;">और</div>
-                <span class="heading-freelancer" style="margin-top: 15px;">UI Projects</span>
-            </div>
-        </div>
+      </div>
     </div>
 
     <div class="laptop_container" id="laptop_container">
-        <div class="laptop_behind">
-            <div class="btn_container">
-                <span><img src="/media/carouselbtn.png" alt=""></span>
-                <span><img src="/media/carouselbtn.png" alt="" style="transform: rotate(180deg);"></span>
-            </div>
-            <div class="laptop-iframe">
-                <img src="/media/Add a heading (19).png" alt="">
-                <iframe src="" frameborder="0"></iframe>
-            </div>
+      <div class="laptop_behind">
+        <div class="btn_container">
+          <span><img src="/media/carouselbtn.png" alt="" /></span>
+          <span
+            ><img
+              src="/media/carouselbtn.png"
+              alt=""
+              style="transform: rotate(180deg)"
+          /></span>
         </div>
-        <div id="btn_2" class="orange_cylinder aur-dekhen" style="z-index: 1000; background-color: black; position: absolute; bottom: 12.5%; scale: 1.1; font-size: 15px; border: 1px solid white;">
-           <a href="" target="_blank" style="text-decoration: none; color: white;"><div>अभी विज़िट करें</div></a>
-            <div class="aur-dekhen-circle" style="display: flex; align-items: center; justify-content: center; background-color: #ffa500;"><img src="/media/arrowtopright.png" alt="" style="scale: 0.5;"></div>
+        <div class="laptop-iframe">
+          <img src="/media/Add a heading (19).png" alt="" />
+          <iframe src="" frameborder="0"></iframe>
         </div>
+      </div>
+      <div
+        id="btn_2"
+        class="orange_cylinder aur-dekhen"
+        style="
+          z-index: 1000;
+          background-color: black;
+          position: absolute;
+          bottom: 12.5%;
+          scale: 1.1;
+          font-size: 15px;
+          border: 1px solid white;
+        "
+      >
+        <a href="" target="_blank" style="text-decoration: none; color: white"
+          ><div>अभी विज़िट करें</div></a
+        >
+        <div
+          class="aur-dekhen-circle"
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffa500;
+          "
+        >
+          <img src="/media/arrowtopright.png" alt="" style="scale: 0.5" />
+        </div>
+      </div>
     </div>
 
-    <div class="section" style="height: 10%;">
-    </div>
+    <div class="section" style="height: 10%"></div>
 
     <div class="web_dev_section" id="web_dev_section">
-        <div class="graphic_design_section_heading" style="scale: 0.8;">
-            <div class="graphic-design-title">Lets Discuss</div>
-            <div class="graphic-design-subtitle">
-                <div class="graphic-design-text">Web</div>
-                <div class="orange_cylinder graphic-design-arrow">
-                    <img src="/media/curl.png" alt="">
-                </div>
-                <div class="graphic-design-text" style="margin-left: -10px;">Dev</div>
-            </div>
+      <div class="graphic_design_section_heading" style="scale: 0.8">
+        <div class="graphic-design-title">Lets Discuss</div>
+        <div class="graphic-design-subtitle">
+          <div class="graphic-design-text">Web</div>
+          <div class="orange_cylinder graphic-design-arrow">
+            <img src="/media/curl.png" alt="" />
+          </div>
+          <div class="graphic-design-text" style="margin-left: -10px">Dev</div>
         </div>
+      </div>
 
-        <div class="scroll_area">
-            <div class="card">
-                <div class="card_left_part">
-                    <img src="./media/credLogo.png" alt="">
-                </div>
-                <div class="card_right_part">
-                    <div class="card_right_part_heading"><h1>Cred Clone</h1></div>
-                    <div class="card_right_part_desc"><h3>This project is a clone of the CRED fintech application UI, created to demonstrate my skills in HTML and CSS. The clone mimics the layout and design of the original app, providing an opportunity to practice front-end development techniques and responsive design.</h3></div>
-                    <div class="links_ctr">
-                        <a href="https://github.com/NishB369/CredClone" target="_blank"><div><span class="bi bi-github" style="margin-right: 10px;"></span>View GitHub</div></a>
-                        <a href="https://clonedcred.vercel.app/" target="_blank"><div><span class="bi bi-browser-chrome" style="margin-right: 10px;"></span>View Project</div></a>
-                    </div>
-                    <div class="tech_stack_ctr">
-                        <div><img src="./media/html5-01-svgrepo-com.svg" alt=""></div>
-                        <div><img src="./media/css3-01-svgrepo-com.svg" alt=""></div>
-                        <!-- <div><img src="./media/js01-svgrepo-com.svg" alt=""></div> -->
-                    </div>
-                </div>
+      <div class="scroll_area">
+        <div class="card">
+          <div class="card_left_part">
+            <img src="./media/credLogo.png" alt="" />
+          </div>
+          <div class="card_right_part">
+            <div class="card_right_part_heading"><h1>Cred Clone</h1></div>
+            <div class="card_right_part_desc">
+              <h3>
+                This project is a clone of the CRED fintech application UI,
+                created to demonstrate my skills in HTML and CSS. The clone
+                mimics the layout and design of the original app, providing an
+                opportunity to practice front-end development techniques and
+                responsive design.
+              </h3>
             </div>
-            <div class="card">
-                <div class="card_left_part"><img src="./media/ytLogo.png" alt=""></div>
-                <div class="card_right_part">
-                    <div class="card_right_part_heading"><h1>YOUTUBE UI CLONE</h1></div>
-                    <div class="card_right_part_desc"><h3>This project is a clone of the YouTube Channel UI, created to showcase my skills in HTML and CSS. The clone replicates the design and layout of the original YouTube interface, providing an opportunity to practice front-end development techniques, responsive design, and user interface elements.</h3></div>
-                    <div class="links_ctr">
-                        <a href="https://github.com/NishB369/YT-UI-Clone" target="_blank"><span class="bi bi-github" style="margin-right: 10px;"></span>View GitHub</a>
-                        <a href="https://yt--clone.vercel.app/" target="_blank"><span class="bi bi-browser-chrome" style="margin-right: 10px;"></span>View Project</a>
-                    </div>
-                    <div class="tech_stack_ctr">
-                        <div><img src="./media/html5-01-svgrepo-com.svg" alt=""></div>
-                        <div><img src="./media/css3-01-svgrepo-com.svg" alt=""></div>
-                        <!-- <div><img src="./media/js01-svgrepo-com.svg" alt=""></div> -->
-                    </div>
-                </div>
+            <div class="links_ctr">
+              <a href="https://github.com/NishB369/CredClone" target="_blank"
+                ><div>
+                  <span class="bi bi-github" style="margin-right: 10px"></span
+                  >View GitHub
+                </div></a
+              >
+              <a href="https://clonedcred.vercel.app/" target="_blank"
+                ><div>
+                  <span
+                    class="bi bi-browser-chrome"
+                    style="margin-right: 10px"
+                  ></span
+                  >View Project
+                </div></a
+              >
             </div>
-            <div class="card">
-                <div class="card_left_part"><img src="./media/type-move-svgrepo-com.svg" alt=""></div>
-                <div class="card_right_part">
-                    <div class="card_right_part_heading"><h1>Type-Writer</h1></div>
-                    <div class="card_right_part_desc"><h3>This is small project, like a miniature version of modern typing practice and testing tool, made to better learnings with respect to javascript dom, event and sync with visual changes on the UI. This projects provides features: difficult level setting, 3 unique themes, real-time virtual keyboard animations and overall score in terms of Speed, Accuracy and Time Taken by user to complete.</h3></div>
-                    <div class="links_ctr">
-                        <a href="https://github.com/NishB369/TypeWriter" target="_blank"><span class="bi bi-github" style="margin-right: 10px;"></span>View GitHub</a>
-                        <a href="https://type--writer.vercel.app/" target="_blank"><span class="bi bi-browser-chrome" style="margin-right: 10px;"></span>View Project</a>
-                    </div>
-                    <div class="tech_stack_ctr">
-                        <div><img src="./media/html5-01-svgrepo-com.svg" alt=""></div>
-                        <div><img src="./media/css3-01-svgrepo-com.svg" alt=""></div>
-                        <div><img src="./media/js01-svgrepo-com.svg" alt=""></div>
-                        <div><img src="./media/gsapLogo.png" alt="" height="15px" style="margin-left: 7.5px;"></div>
-                    </div>
-                </div>
+            <div class="tech_stack_ctr">
+              <div><img src="./media/html5-01-svgrepo-com.svg" alt="" /></div>
+              <div><img src="./media/css3-01-svgrepo-com.svg" alt="" /></div>
+              <!-- <div><img src="./media/js01-svgrepo-com.svg" alt=""></div> -->
             </div>
-            <div class="card">
-                <div class="card_left_part"><img src="./media/sticky-note-fill-svgrepo-com.svg" alt=""></div>
-                <div class="card_right_part">
-                    <div class="card_right_part_heading"><h1>Sticky-Notes</h1></div>
-                    <div class="card_right_part_desc"><h3>This is small project built using html, css and javascipt, which is a basic version of any sticky notes software. It uses the localstorage to keep the user data into the sticky notes and manage the edits along with deletion of sticky notes.</h3></div>
-                    <div class="links_ctr">
-                        <a href="https://github.com/NishB369/StickyNotes"  target="_blank"><span class="bi bi-github" style="margin-right: 10px;"></span>View GitHub</a>
-                        <a href="https://sticky---notes.vercel.app/" target="_blank"><span class="bi bi-browser-chrome" style="margin-right: 10px;"></span>View Project</a>
-                    </div>
-                    <div class="tech_stack_ctr">
-                        <div><img src="./media/html5-01-svgrepo-com.svg" alt=""></div>
-                        <div><img src="./media/css3-01-svgrepo-com.svg" alt=""></div>
-                        <div><img src="./media/js01-svgrepo-com.svg" alt=""></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card_left_part"><img src="./media/animation-svgrepo-com (1).svg" alt="" style="rotate: -75deg;"></div>
-                <div class="card_right_part">
-                    <div class="card_right_part_heading"><h1>Animator</h1></div>
-                    <div class="card_right_part_desc"><h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, voluptates tempora, recusandae perferendis nesciunt amet magnam aspernatur iusto illum deleniti ipsum, omnis quo reiciendis repellendus eos? Beatae voluptatibus sed amet?</h3></div>
-                    <div class="links_ctr">
-                        <a href="https://github.com/NishB369/Animator" target="_blank"><span class="bi bi-github" style="margin-right: 10px;"></span>View GitHub</a>
-                        <a href="https://animatoor.vercel.app/" target="_blank"><span class="bi bi-browser-chrome" style="margin-right: 10px;"></span>View Project</a>
-                    </div>
-                    <div class="tech_stack_ctr">
-                        <div><img src="./media/html5-01-svgrepo-com.svg" alt=""></div>
-                        <div><img src="./media/css3-01-svgrepo-com.svg" alt=""></div>
-                        <div><img src="./media/js01-svgrepo-com.svg" alt=""></div>
-                        <div><img src="./media/gsapLogo.png" alt="" height="15px" style="margin-left: 7.5px;"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card_left_part"><img src="./media/portfolio.png" alt="" style="scale: 0.7;"></div>
-                <div class="card_right_part">
-                    <div class="card_right_part_heading"><h1>The one you are at</h1></div>
-                    <div class="card_right_part_desc"><h3>This project is version 2.0 of my personal portfolio for 2024, showcasing my skills in Graphic Designing, UI and Web Design along with Frontend Web Development.</h3></div>
-                    <div class="links_ctr">
-                        <a><span class="bi bi-github" style="margin-right: 10px;"></span>View GitHub</a>
-                        <a><span class="bi bi-browser-chrome" style="margin-right: 10px;"></span>View Project</a>
-                    </div>
-                    <div class="tech_stack_ctr">
-                        <div><img src="./media/html5-01-svgrepo-com.svg" alt=""></div>
-                        <div><img src="./media/css3-01-svgrepo-com.svg" alt=""></div>
-                        <div><img src="./media/js01-svgrepo-com.svg" alt=""></div>
-                        <div><img src="./media/gsapLogo.png" alt="" height="15px" style="margin-left: 7.5px;"></div>
-                        
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="card">
+          <div class="card_left_part">
+            <img src="./media/ytLogo.png" alt="" />
+          </div>
+          <div class="card_right_part">
+            <div class="card_right_part_heading"><h1>YOUTUBE UI CLONE</h1></div>
+            <div class="card_right_part_desc">
+              <h3>
+                This project is a clone of the YouTube Channel UI, created to
+                showcase my skills in HTML and CSS. The clone replicates the
+                design and layout of the original YouTube interface, providing
+                an opportunity to practice front-end development techniques,
+                responsive design, and user interface elements.
+              </h3>
+            </div>
+            <div class="links_ctr">
+              <a href="https://github.com/NishB369/YT-UI-Clone" target="_blank"
+                ><span class="bi bi-github" style="margin-right: 10px"></span
+                >View GitHub</a
+              >
+              <a href="https://yt--clone.vercel.app/" target="_blank"
+                ><span
+                  class="bi bi-browser-chrome"
+                  style="margin-right: 10px"
+                ></span
+                >View Project</a
+              >
+            </div>
+            <div class="tech_stack_ctr">
+              <div><img src="./media/html5-01-svgrepo-com.svg" alt="" /></div>
+              <div><img src="./media/css3-01-svgrepo-com.svg" alt="" /></div>
+              <!-- <div><img src="./media/js01-svgrepo-com.svg" alt=""></div> -->
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card_left_part">
+            <img src="./media/type-move-svgrepo-com.svg" alt="" />
+          </div>
+          <div class="card_right_part">
+            <div class="card_right_part_heading"><h1>Type-Writer</h1></div>
+            <div class="card_right_part_desc">
+              <h3>
+                This is small project, like a miniature version of modern typing
+                practice and testing tool, made to better learnings with respect
+                to javascript dom, event and sync with visual changes on the UI.
+                This projects provides features: difficult level setting, 3
+                unique themes, real-time virtual keyboard animations and overall
+                score in terms of Speed, Accuracy and Time Taken by user to
+                complete.
+              </h3>
+            </div>
+            <div class="links_ctr">
+              <a href="https://github.com/NishB369/TypeWriter" target="_blank"
+                ><span class="bi bi-github" style="margin-right: 10px"></span
+                >View GitHub</a
+              >
+              <a href="https://type--writer.vercel.app/" target="_blank"
+                ><span
+                  class="bi bi-browser-chrome"
+                  style="margin-right: 10px"
+                ></span
+                >View Project</a
+              >
+            </div>
+            <div class="tech_stack_ctr">
+              <div><img src="./media/html5-01-svgrepo-com.svg" alt="" /></div>
+              <div><img src="./media/css3-01-svgrepo-com.svg" alt="" /></div>
+              <div><img src="./media/js01-svgrepo-com.svg" alt="" /></div>
+              <div>
+                <img
+                  src="./media/gsapLogo.png"
+                  alt=""
+                  height="15px"
+                  style="margin-left: 7.5px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card_left_part">
+            <img src="./media/sticky-note-fill-svgrepo-com.svg" alt="" />
+          </div>
+          <div class="card_right_part">
+            <div class="card_right_part_heading"><h1>Sticky-Notes</h1></div>
+            <div class="card_right_part_desc">
+              <h3>
+                This is small project built using html, css and javascipt, which
+                is a basic version of any sticky notes software. It uses the
+                localstorage to keep the user data into the sticky notes and
+                manage the edits along with deletion of sticky notes.
+              </h3>
+            </div>
+            <div class="links_ctr">
+              <a href="https://github.com/NishB369/StickyNotes" target="_blank"
+                ><span class="bi bi-github" style="margin-right: 10px"></span
+                >View GitHub</a
+              >
+              <a href="https://sticky---notes.vercel.app/" target="_blank"
+                ><span
+                  class="bi bi-browser-chrome"
+                  style="margin-right: 10px"
+                ></span
+                >View Project</a
+              >
+            </div>
+            <div class="tech_stack_ctr">
+              <div><img src="./media/html5-01-svgrepo-com.svg" alt="" /></div>
+              <div><img src="./media/css3-01-svgrepo-com.svg" alt="" /></div>
+              <div><img src="./media/js01-svgrepo-com.svg" alt="" /></div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card_left_part">
+            <img
+              src="./media/animation-svgrepo-com (1).svg"
+              alt=""
+              style="rotate: -75deg"
+            />
+          </div>
+          <div class="card_right_part">
+            <div class="card_right_part_heading"><h1>Animator</h1></div>
+            <div class="card_right_part_desc">
+              <h3>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id,
+                voluptates tempora, recusandae perferendis nesciunt amet magnam
+                aspernatur iusto illum deleniti ipsum, omnis quo reiciendis
+                repellendus eos? Beatae voluptatibus sed amet?
+              </h3>
+            </div>
+            <div class="links_ctr">
+              <a href="https://github.com/NishB369/Animator" target="_blank"
+                ><span class="bi bi-github" style="margin-right: 10px"></span
+                >View GitHub</a
+              >
+              <a href="https://animatoor.vercel.app/" target="_blank"
+                ><span
+                  class="bi bi-browser-chrome"
+                  style="margin-right: 10px"
+                ></span
+                >View Project</a
+              >
+            </div>
+            <div class="tech_stack_ctr">
+              <div><img src="./media/html5-01-svgrepo-com.svg" alt="" /></div>
+              <div><img src="./media/css3-01-svgrepo-com.svg" alt="" /></div>
+              <div><img src="./media/js01-svgrepo-com.svg" alt="" /></div>
+              <div>
+                <img
+                  src="./media/gsapLogo.png"
+                  alt=""
+                  height="15px"
+                  style="margin-left: 7.5px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card_left_part">
+            <img src="./media/portfolio.png" alt="" style="scale: 0.7" />
+          </div>
+          <div class="card_right_part">
+            <div class="card_right_part_heading">
+              <h1>The one you are at</h1>
+            </div>
+            <div class="card_right_part_desc">
+              <h3>
+                This project is version 2.0 of my personal portfolio for 2024,
+                showcasing my skills in Graphic Designing, UI and Web Design
+                along with Frontend Web Development.
+              </h3>
+            </div>
+            <div class="links_ctr">
+              <a
+                ><span class="bi bi-github" style="margin-right: 10px"></span
+                >View GitHub</a
+              >
+              <a
+                ><span
+                  class="bi bi-browser-chrome"
+                  style="margin-right: 10px"
+                ></span
+                >View Project</a
+              >
+            </div>
+            <div class="tech_stack_ctr">
+              <div><img src="./media/html5-01-svgrepo-com.svg" alt="" /></div>
+              <div><img src="./media/css3-01-svgrepo-com.svg" alt="" /></div>
+              <div><img src="./media/js01-svgrepo-com.svg" alt="" /></div>
+              <div>
+                <img
+                  src="./media/gsapLogo.png"
+                  alt=""
+                  height="15px"
+                  style="margin-left: 7.5px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    
 
     <div class="resume_section">
-        <div style="display: flex; align-items: center; justify-content: center;"><img src="/media/resume.png" alt=""></div>
-        <div style="display: flex; align-items: start; flex-direction: column; ">
-            <div>Have a look</div>
-            <div style="font-weight: bold; font-style: italic; margin-top: -7.5%; margin-bottom: 1%;">at my</div>
-            <div class="orange_cylinder" style="display: flex; align-items: center; justify-content: center;"><img src="/media/right_arrow.png" alt=""></div>
-            <div style="font-weight: bold; font-style: italic;">RESUME</div>
-            <div id="btn_2" class="orange_cylinder aur-dekhen" style="z-index: 1000; background-color: black; scale: 1.1; font-size: 15px; border: 1px solid white; height: 45px; margin-top: 4%;">
-                <a href="" target="_blank" style="text-decoration: none; color: white;"><div>अभी विज़िट करें</div></a>
-                 <div class="aur-dekhen-circle" style="display: flex; align-items: center; justify-content: center; background-color: #ffa500;"><img src="/media/arrowtopright.png" alt="" style="scale: 0.5;"></div>
-             </div>
+      <div style="display: flex; align-items: center; justify-content: center">
+        <img src="/media/resume.png" alt="" />
+      </div>
+      <div style="display: flex; align-items: start; flex-direction: column">
+        <div>Have a look</div>
+        <div
+          style="
+            font-weight: bold;
+            font-style: italic;
+            margin-top: -7.5%;
+            margin-bottom: 1%;
+          "
+        >
+          at my
         </div>
+        <div
+          class="orange_cylinder"
+          style="display: flex; align-items: center; justify-content: center"
+        >
+          <img src="/media/right_arrow.png" alt="" />
+        </div>
+        <div style="font-weight: bold; font-style: italic">RESUME</div>
+        <div
+          id="btn_2"
+          class="orange_cylinder aur-dekhen"
+          style="
+            z-index: 1000;
+            background-color: black;
+            scale: 1.1;
+            font-size: 15px;
+            border: 1px solid white;
+            height: 45px;
+            margin-top: 4%;
+          "
+        >
+          <a href="" target="_blank" style="text-decoration: none; color: white"
+            ><div>अभी विज़िट करें</div></a
+          >
+          <div
+            class="aur-dekhen-circle"
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background-color: #ffa500;
+            "
+          >
+            <img src="/media/arrowtopright.png" alt="" style="scale: 0.5" />
+          </div>
+        </div>
+      </div>
     </div>
+
+    <div class="graphic_design_section">
+        <div class="graphic_design_section_heading" style="scale: 0.8">
+          <div class="graphic-design-title">My Graphic</div>
+          <div class="graphic-design-subtitle">
+            <div class="graphic-design-text">Designing</div>
+            <div class="orange_cylinder graphic-design-arrow">
+              <img src="/media/right_arrow.png" alt="" />
+            </div>
+            <div class="graphic-design-text">Projects</div>
+          </div>
+        </div>
+  
+        <div class="main_box_container">
+          <div class="box_container">
+            <div class="box_subcontainer">
+              <div class="box-item"><img src="media/P1.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P2.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P3.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P4.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P5.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P6.webp" alt="" loading="eager"/></div>
+            </div>
+            <div class="box_subcontainer">
+              <div class="box-item"><img src="media/P7.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P8.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P9.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P10.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P11.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P12.webp" alt="" loading="eager"/></div>
+            </div>
+          </div>
+  
+          <div class="box_container box-scroll-right">
+            <div class="box_subcontainer">
+              <div class="box-item"><img src="media/P4.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P3.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P2.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P1.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P14.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P13.webp" alt="" loading="eager"/></div>
+            </div>
+            <div class="box_subcontainer">
+              <div class="box-item"><img src="media/P10.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P9.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P8.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P7.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P6.webp" alt="" loading="eager"/></div>
+              <div class="box-item"><img src="media/P5.webp" alt="" loading="eager"/></div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="orange_cylinder aur-dekhen">
+          <div>और देखें</div>
+          <div
+            class="aur-dekhen-circle"
+            style="display: flex; align-items: center; justify-content: center"
+          >
+            <img src="/media/arrowtopright.png" alt="" style="scale: 0.5" />
+          </div>
+        </div>
+      </div>
 
     <div class="connect_section" id="connect_section">
-        <div class="quote_heading_container" style="width: 50%;">
-            <div>Connect With</div>
-            <div>
-                <div class="orange_cylinder"><img src="/media/linkicon.png" alt=""></div>
-                <div>me on</div>
-            </div>
+      <div class="quote_heading_container" style="width: 50%">
+        <div>Connect With</div>
+        <div>
+          <div class="orange_cylinder">
+            <img src="/media/linkicon.png" alt="" />
+          </div>
+          <div>me on</div>
+        </div>
+      </div>
+
+      <div
+        style="
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 50%;
+          height: 10%;
+          margin-bottom: 2%;
+        "
+      >
+        <h6 style="top: 0; white-space: wrap; text-align: center">
+          Let's build a community of like-minded individuals! let's connect and
+          grow together!
+        </h6>
+      </div>
+
+      <div
+        class="sm_container_container"
+        style="
+          height: 25%;
+          width: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: start;
+          margin-bottom: 1%;
+          flex-shrink: none;
+        "
+      >
+        <div id="sm_container_1" class="sm_container">
+          <h2>LinkedIn</h2>
+          <h4>Nishchay Bhatia</h4>
+          <a href="https://www.linkedin.com/in/nishchay-bhatia/" target="_blank"
+            ><span
+              ><img
+                src="/media/arrowtopright.png"
+                alt=""
+                style="scale: 0.5" /></span
+          ></a>
         </div>
 
-        <div style="position: relative; display: flex; align-items: center; justify-content: center; width: 50%; height: 10%;  margin-bottom: 2%;">
-            <h6 style="top: 0; white-space: wrap; text-align: center;">Let's build a community of like-minded individuals!
-                let's connect and grow together!</h6>
+        <div id="sm_container_2" class="sm_container">
+          <h2>Instagram</h2>
+          <h4>NishB369</h4>
+          <a href="https://www.instagram.com/nishb369/" target="_blank"
+            ><span
+              ><img
+                src="/media/arrowtopright.png"
+                alt=""
+                style="scale: 0.5" /></span
+          ></a>
         </div>
 
-
-        <div class="sm_container_container" style="height: 25%; width: 80%; display: flex; align-items: center; justify-content: start; margin-bottom: 1%; flex-shrink: none;">
-            <div id="sm_container_1" class="sm_container">
-                <h2>LinkedIn</h2>
-                <h4>Nishchay Bhatia</h4>
-                <a href="https://www.linkedin.com/in/nishchay-bhatia/" target="_blank"><span><img src="/media/arrowtopright.png" alt="" style="scale: 0.5;"></span></a>
-            </div>
-
-            <div id="sm_container_2" class="sm_container">
-                <h2>Instagram</h2>
-                <h4>NishB369</h4>
-                <a href="https://www.instagram.com/nishb369/" target="_blank"><span><img src="/media/arrowtopright.png" alt="" style="scale: 0.5;"></span></a>
-            </div>
-
-            <div id="sm_container_3" class="sm_container">
-                <h2>Email</h2>
-                <h4>nishbcodes@gmail.com</h4>
-                <a href="mailto:nishbcodes@gmail.com"><span><img src="/media/arrowtopright.png" alt="" style="scale: 0.5;"></span></a>
-            </div>
-
-            <div id="sm_container_4" class="sm_container">
-                <h2>WhatsApp</h2>
-                <h4>+91 7428247674</h4>
-                <a href="https://wa.me/7428247674" target="_blank"><span><img src="/media/arrowtopright.png" alt="" style="scale: 0.5;"></span></a>
-            </div>
-
-            <div id="sm_container_5" class="sm_container">
-                <h2>GitHub</h2>
-                <h4>NishB369</h4>
-                <a href="https://github.com/NishB369" target="_blank"><span><img src="/media/arrowtopright.png" alt="" style="scale: 0.5"></span></a>
-            </div>
+        <div id="sm_container_3" class="sm_container">
+          <h2>Email</h2>
+          <h4>nishbcodes@gmail.com</h4>
+          <a href="mailto:nishbcodes@gmail.com"
+            ><span
+              ><img
+                src="/media/arrowtopright.png"
+                alt=""
+                style="scale: 0.5" /></span
+          ></a>
         </div>
 
-        <div class="icons_container">
-            <div><img src="/media/linkedin.png" alt=""></div>
-            <div><img src="/media/instagram.png" alt=""></div>
-            <div><img src="/media/email.png" alt=""></div>
-            <div><img src="/media/whatsapp.png" alt=""></div>
-            <div><img src="/media/github.png" alt=""></div>
+        <div id="sm_container_4" class="sm_container">
+          <h2>WhatsApp</h2>
+          <h4>+91 7428247674</h4>
+          <a href="https://wa.me/7428247674" target="_blank"
+            ><span
+              ><img
+                src="/media/arrowtopright.png"
+                alt=""
+                style="scale: 0.5" /></span
+          ></a>
         </div>
+
+        <div id="sm_container_5" class="sm_container">
+          <h2>GitHub</h2>
+          <h4>NishB369</h4>
+          <a href="https://github.com/NishB369" target="_blank"
+            ><span
+              ><img
+                src="/media/arrowtopright.png"
+                alt=""
+                style="scale: 0.5" /></span
+          ></a>
+        </div>
+      </div>
+
+      <div class="icons_container">
+        <div><img src="/media/linkedin.png" alt="" /></div>
+        <div><img src="/media/instagram.png" alt="" /></div>
+        <div><img src="/media/email.png" alt="" /></div>
+        <div><img src="/media/whatsapp.png" alt="" /></div>
+        <div><img src="/media/github.png" alt="" /></div>
+      </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
